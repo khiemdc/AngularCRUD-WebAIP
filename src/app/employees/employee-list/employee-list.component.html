@@ -1,0 +1,12 @@
+<p>
+  employee-list works!
+  {{ employeeList | json }}
+</p>
+<table class="table">
+  <tr *ngFor="let employee of _employeeService.employeeList">
+    <td>{{employee.FirstName}}</td>
+
+  </tr>
+
+
+</table>
